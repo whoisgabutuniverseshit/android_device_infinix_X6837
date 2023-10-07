@@ -11,6 +11,10 @@ KERNEL_PATH := $(DEVICE_PATH)-kernel
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1.vendor:64
 
+# Overlays
+PRODUCT_PACKAGES += \
+    SettingsProviderResTarget
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 31
 
