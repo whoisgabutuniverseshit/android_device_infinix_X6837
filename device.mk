@@ -5,6 +5,7 @@
 #
 
 DEVICE_PATH := device/infinix/X6833B
+KERNEL_PATH := $(DEVICE_PATH)-kernel
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 31
