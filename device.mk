@@ -22,7 +22,8 @@ TARGET_SCREEN_WIDTH := 1080
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResTarget \
-    SettingsProviderResTarget
+    SettingsProviderResTarget \
+    SettingsResTarget
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 31
