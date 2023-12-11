@@ -1,5 +1,15 @@
 ## X6833B package version: X6833B-H894DEFGHI-T-GL-240416V3866, unless stated otherwise
 
+# Fingerprint
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
+vendor/etc/init/vendor.fpsensor.rc
+-vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml
+-vendor/etc/vintf/manifest/manifest_chipone.xml
+vendor/lib64/hw/fpsensor_fingerprint.default.so
+vendor/lib64/libfp_ext_svc2.so
+vendor/lib64/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so
+
 # Firmware
 vendor/firmware/BT_FW.cfg
 vendor/firmware/WIFI_RAM_CODE_soc2_2_1d_1.bin
