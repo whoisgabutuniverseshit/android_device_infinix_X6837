@@ -13,5 +13,8 @@ PRODUCT_SHIPPING_API_LEVEL := 31
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Inherit from the common OEM chipset makefile.
+$(call inherit-product, device/transsion/mt6789-common/common.mk)
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/infinix/X6833B/X6833B-vendor.mk)
