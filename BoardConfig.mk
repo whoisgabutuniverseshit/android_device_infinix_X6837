@@ -10,6 +10,9 @@ include device/transsion/mt6789-common/BoardConfigCommon.mk
 # Boot image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 
+# Display
+TARGET_SCREEN_DENSITY := 396
+
 # DTB
 BOARD_PREBUILT_DTBOIMAGE := $(KERNEL_PATH)/dtbo.img
 BOARD_PREBUILT_DTBIMAGE_DIR := $(KERNEL_PATH)/dtb
