@@ -11,6 +11,10 @@ KERNEL_PATH := $(DEVICE_PATH)-kernel
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1.vendor:64
 
+# AAPT
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+
 # Overlays
 PRODUCT_PACKAGES += \
     SettingsProviderResTarget
