@@ -19,11 +19,20 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 TARGET_SCREEN_HEIGHT := 2460
 TARGET_SCREEN_WIDTH := 1080
 
+# Camera
+PRODUCT_PACKAGES += \
+    android.hardware.camera.device@3.6.vendor \
+    android.hardware.camera.provider@2.6.vendor
+
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResTarget \
     SettingsProviderResTarget \
     SettingsResTarget
+
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power@1.3.vendor
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 31
