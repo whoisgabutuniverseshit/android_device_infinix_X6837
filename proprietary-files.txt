@@ -1,4 +1,4 @@
-## X6833B package version: X6833B-H894DEFGHI-T-GL-240416V3866, unless stated otherwise
+## X6833B package version: X6833B-H894DEFGHI-U-GL-240703V808, unless stated otherwise
 
 # Camera
 vendor/bin/hw/mt6789/camerahalserver
@@ -337,9 +337,11 @@ vendor/lib64/libCamera_pbroov64b40mipiraw_Video_EIS.so
 vendor/lib64/libCamera_pbroov64b40mipiraw_Video_Zoom1.so
 vendor/lib64/libCamera_pbroov64b40mipiraw_Video_Zoom2.so
 vendor/lib64/libJpgEncPipe.so
-vendor/lib64/libNvLutEffect_arm64-v8a.so
 vendor/lib64/libSQLiteModule_VER_ALL.so
-vendor/lib64/libTranAutoColorLevel.so
+vendor/lib64/libTranExtImgThread.so
+vendor/lib64/libTranVideoFilter.so
+vendor/lib64/libTranVideoLuminousEffects.so
+vendor/lib64/libaipe_bokeh.so
 vendor/lib64/libanc_hdr.so
 vendor/lib64/libanc_hdr_adapter_hi1631q_17201701_front_g97.so
 vendor/lib64/libanc_hdr_adapter_hi1634q_17201821_front_g97.so
@@ -367,17 +369,19 @@ vendor/lib64/libcamalgo.platform.so
 vendor/lib64/libcamalgo.utility.so
 vendor/lib64/libcamalgo.vsdofUtil.so
 vendor/lib64/libcamalgo.warp.so
-vendor/lib64/libcolorlevel.so
 vendor/lib64/libheichal.so
 vendor/lib64/libimagebuffer_wrapper.so
 vendor/lib64/libimgsensorca.so
 vendor/lib64/libjpeg-alpha-oal_vendor.so
 vendor/lib64/libjpeg-alpha_vendor.so
+vendor/lib64/libmtkcam_3rdparty.thread.so
 vendor/lib64/libmtkcam_fdWarpConvert.so
 vendor/lib64/libmtkcam_pipelinepolicy-aov.so
 vendor/lib64/libmtkisp_metadata.so
 vendor/lib64/libtrancamJsonConvertor.so
 vendor/lib64/libtrancam_filelockmgr.so
+vendor/lib64/libvideofilmeffect.so
+vendor/lib64/libvideofilter_cl_64.so
 vendor/lib64/mt6789/fake_serial_yuv_IdxMgr.so
 vendor/lib64/mt6789/fake_serial_yuv_tuning.so
 vendor/lib64/mt6789/gc02m1_mipi_raw_IdxMgr.so
@@ -474,6 +478,7 @@ vendor/lib64/mt6789/libCamera_pbroov64b40mipiraw_Scene_Capture.so
 vendor/lib64/mt6789/libCamera_pbroov64b40mipiraw_Scene_Capture_4cell.so
 vendor/lib64/mt6789/libCamera_pbroov64b40mipiraw_Scene_Preview.so
 vendor/lib64/mt6789/libImageEval.so
+vendor/lib64/mt6789/libNvLutEffect.so
 vendor/lib64/mt6789/libSonyIMX230PdafLibrary.so
 vendor/lib64/mt6789/libSonyIMX230PdafLibraryWrapper.so
 vendor/lib64/mt6789/libSonyIMX338PdafLibrary.so
@@ -489,14 +494,15 @@ vendor/lib64/mt6789/libTranArcHDR.so
 vendor/lib64/mt6789/libTranArcLLHDR.so
 vendor/lib64/mt6789/libTranArcLowLight.so
 vendor/lib64/mt6789/libTranArcNightHawk.so
+vendor/lib64/mt6789/libTranAutoColorLevel.so
 vendor/lib64/mt6789/libTranBefMakeup.so
 vendor/lib64/mt6789/libTranColorEnhance.so
 vendor/lib64/mt6789/libTranDenoise.so
 vendor/lib64/mt6789/libTranExtImgProc.so
 vendor/lib64/mt6789/libTranEyeDetect.so
-vendor/lib64/mt6789/libTranFaceBeauty.so
 vendor/lib64/mt6789/libTranGenderDetect.so
 vendor/lib64/mt6789/libTranHumanLight.so
+vendor/lib64/mt6789/libTranITDFaceBeauty.so
 vendor/lib64/mt6789/libTranMSFilter.so
 vendor/lib64/mt6789/libTranMagicSky.so
 vendor/lib64/mt6789/libTranMegDualDepth.so
@@ -507,7 +513,7 @@ vendor/lib64/mt6789/libTranSTPRRepair.so
 vendor/lib64/mt6789/libTranSTSingleBlur.so
 vendor/lib64/mt6789/libTranSlimBody.so
 vendor/lib64/mt6789/libTranSmartDetection.so
-vendor/lib64/mt6789/libTranStSuperResolution.so
+vendor/lib64/mt6789/libTranSuperResolution.so
 vendor/lib64/mt6789/libTran_Log.so
 vendor/lib64/mt6789/libTran_mtkPowerAPI.so
 vendor/lib64/mt6789/libWaterMarkProc.so
@@ -524,7 +530,6 @@ vendor/lib64/mt6789/libaibc_tuning_p4.so
 vendor/lib64/mt6789/libaidepth_tuning.so
 vendor/lib64/mt6789/libamipengine.so
 vendor/lib64/mt6789/libanc_dc_base.so
-vendor/lib64/mt6789/libarcsoft_beautyshot.so
 vendor/lib64/mt6789/libarcsoft_high_dynamic_range.so
 vendor/lib64/mt6789/libarcsoft_low_light_hdr.so
 vendor/lib64/mt6789/libarcsoft_low_light_shot.so
@@ -580,6 +585,7 @@ vendor/lib64/mt6789/libcameracustom.flashlight.so
 vendor/lib64/mt6789/libcameracustom.lens.so
 vendor/lib64/mt6789/libcameracustom.so
 vendor/lib64/mt6789/libcolorenhance_64.so
+vendor/lib64/mt6789/libcolorlevel.so
 vendor/lib64/mt6789/libdenoise.so
 vendor/lib64/mt6789/libdip_drv.so
 vendor/lib64/mt6789/libdip_postproc.so
@@ -598,6 +604,7 @@ vendor/lib64/mt6789/libfeatureiodrv_mem.so
 vendor/lib64/mt6789/libimageio.so
 vendor/lib64/mt6789/libimageio_plat_drv.so
 vendor/lib64/mt6789/libimageio_plat_pipe.so
+vendor/lib64/mt6789/libitdfacebeauty.so
 vendor/lib64/mt6789/liblpcnr.so
 vendor/lib64/mt6789/libmagicsky_64.so
 vendor/lib64/mt6789/libmorpho_video_stabilizer.so
@@ -679,7 +686,6 @@ vendor/lib64/mt6789/libtf_asd_lib.so
 vendor/lib64/mt6789/libtflite_native_gainference.so
 vendor/lib64/mt6789/libtflite_native_inference.so
 vendor/lib64/mt6789/libtflite_native_seginference.so
-vendor/lib64/mt6789/libtranssion_beauty.so
 vendor/lib64/mt6789/libtranssion_bodybeauty.so
 vendor/lib64/mt6789/libtranssion_cal.so
 vendor/lib64/mt6789/libvainr_model.so
@@ -740,6 +746,7 @@ vendor/etc/init/vendor.fpsensor.rc
 -vendor/etc/vintf/manifest/manifest_chipone.xml
 vendor/lib64/hw/fpsensor_fingerprint.default.so
 vendor/lib64/libfp_ext_svc2.so
+vendor/lib64/libtneclient.so
 vendor/lib64/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so
 
 # Firmware

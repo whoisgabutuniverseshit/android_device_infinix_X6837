@@ -102,6 +102,7 @@ lib64/libCamera_pbroov64b40mipiraw_Scene_Capture.so
 lib64/libCamera_pbroov64b40mipiraw_Scene_Capture_4cell.so
 lib64/libCamera_pbroov64b40mipiraw_Scene_Preview.so
 lib64/libImageEval.so
+lib64/libNvLutEffect.so
 lib64/libSonyIMX230PdafLibrary.so
 lib64/libSonyIMX230PdafLibraryWrapper.so
 lib64/libSonyIMX338PdafLibrary.so
@@ -117,14 +118,15 @@ lib64/libTranArcHDR.so
 lib64/libTranArcLLHDR.so
 lib64/libTranArcLowLight.so
 lib64/libTranArcNightHawk.so
+lib64/libTranAutoColorLevel.so
 lib64/libTranBefMakeup.so
 lib64/libTranColorEnhance.so
 lib64/libTranDenoise.so
 lib64/libTranExtImgProc.so
 lib64/libTranEyeDetect.so
-lib64/libTranFaceBeauty.so
 lib64/libTranGenderDetect.so
 lib64/libTranHumanLight.so
+lib64/libTranITDFaceBeauty.so
 lib64/libTranMSFilter.so
 lib64/libTranMagicSky.so
 lib64/libTranMegDualDepth.so
@@ -135,7 +137,7 @@ lib64/libTranSTPRRepair.so
 lib64/libTranSTSingleBlur.so
 lib64/libTranSlimBody.so
 lib64/libTranSmartDetection.so
-lib64/libTranStSuperResolution.so
+lib64/libTranSuperResolution.so
 lib64/libTran_Log.so
 lib64/libTran_mtkPowerAPI.so
 lib64/libWaterMarkProc.so
@@ -152,7 +154,6 @@ lib64/libaibc_tuning_p4.so
 lib64/libaidepth_tuning.so
 lib64/libamipengine.so
 lib64/libanc_dc_base.so
-lib64/libarcsoft_beautyshot.so
 lib64/libarcsoft_high_dynamic_range.so
 lib64/libarcsoft_low_light_hdr.so
 lib64/libarcsoft_low_light_shot.so
@@ -208,6 +209,7 @@ lib64/libcameracustom.flashlight.so
 lib64/libcameracustom.lens.so
 lib64/libcameracustom.so
 lib64/libcolorenhance_64.so
+lib64/libcolorlevel.so
 lib64/libdenoise.so
 lib64/libdip_drv.so
 lib64/libdip_postproc.so
@@ -226,6 +228,7 @@ lib64/libfeatureiodrv_mem.so
 lib64/libimageio.so
 lib64/libimageio_plat_drv.so
 lib64/libimageio_plat_pipe.so
+lib64/libitdfacebeauty.so
 lib64/liblpcnr.so
 lib64/libmagicsky_64.so
 lib64/libmorpho_video_stabilizer.so
@@ -307,7 +310,6 @@ lib64/libtf_asd_lib.so
 lib64/libtflite_native_gainference.so
 lib64/libtflite_native_inference.so
 lib64/libtflite_native_seginference.so
-lib64/libtranssion_beauty.so
 lib64/libtranssion_bodybeauty.so
 lib64/libtranssion_cal.so
 lib64/libvainr_model.so
