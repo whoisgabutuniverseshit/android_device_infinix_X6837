@@ -28,7 +28,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     FrameworksResTarget \
     SettingsProviderResTarget \
-    SettingsResTarget
+    SettingsResTarget \
+    SystemUIResTarget
 
 # Power
 PRODUCT_PACKAGES += \
