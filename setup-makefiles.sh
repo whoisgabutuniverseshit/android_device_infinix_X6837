@@ -8,7 +8,7 @@
 
 set -e
 
-export DEVICE=X6833B
+export DEVICE=X6837
 export DEVICE_COMMON=mt6789-common
 export VENDOR=infinix
 export VENDOR_COMMON=transsion

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_X6833B.mk
+    $(LOCAL_DIR)/lineage_X6837.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_X6833B-user \
-    lineage_X6833B-userdebug \
-    lineage_X6833B-eng
+    lineage_X6837-user \
+    lineage_X6837-userdebug \
+    lineage_X6837-eng

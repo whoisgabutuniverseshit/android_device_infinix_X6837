@@ -1,10 +1,10 @@
 #
-# Copyright (C) 2023 The LineageOS Project
+# Copyright (C) 2024 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/infinix/X6833B
+DEVICE_PATH := device/infinix/X6837
 KERNEL_PATH := $(DEVICE_PATH)-kernel
 
 # Fingerprint
@@ -19,21 +19,12 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 TARGET_SCREEN_HEIGHT := 2460
 TARGET_SCREEN_WIDTH := 1080
 
-# Camera
-PRODUCT_PACKAGES += \
-    android.hardware.camera.device@3.6.vendor \
-    android.hardware.camera.provider@2.6.vendor
-
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResTarget \
     SettingsProviderResTarget \
     SettingsResTarget \
     SystemUIResTarget
-
-# Power
-PRODUCT_PACKAGES += \
-    android.hardware.power@1.3.vendor
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 31
@@ -46,4 +37,4 @@ PRODUCT_SOONG_NAMESPACES += \
 $(call inherit-product, device/transsion/mt6789-common/common.mk)
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/infinix/X6833B/X6833B-vendor.mk)
+$(call inherit-product, vendor/infinix/X6837/X6837-vendor.mk)
