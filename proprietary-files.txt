@@ -1,5 +1,14 @@
 ## x6837 package version: X6837-H897ABCDEFQRZAaAb-T-BASE-240313V1154, unless stated otherwise
 
+# Audio (Additional Libs)
+vendor/lib/audio_common-aidl-cpp.so
+vendor/lib/hw/awinic.audio.effect.so
+vendor/lib/libkaraoke.so
+vendor/lib/libTransNS.so
+vendor/lib64/audio_common-aidl-cpp.so
+vendor/lib64/libkaraoke.so
+vendor/lib64/libTransNS.so
+
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
