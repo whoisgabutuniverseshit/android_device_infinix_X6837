@@ -24,7 +24,8 @@ PRODUCT_PACKAGES += \
     FrameworksResTarget \
     SettingsProviderResTarget \
     SettingsResTarget \
-    SystemUIResTarget
+    SystemUIResTarget \
+    WifiResTarget
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 31
