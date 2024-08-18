@@ -936,7 +936,6 @@ vendor/lib64/mt6789/libmtkcam_imem.so
 vendor/lib64/mt6789/libmtkcam_imgbuf.so
 vendor/lib64/mt6789/libmtkcam_mapping_mgr.so
 vendor/lib64/mt6789/libmtkcam_metadata.so
-vendor/lib64/mt6789/libmtkcam_metastore.so
 vendor/lib64/mt6789/libmtkcam_mfb.so
 vendor/lib64/mt6789/libmtkcam_modulefactory_aaa.so
 vendor/lib64/mt6789/libmtkcam_modulefactory_custom.so
@@ -1132,6 +1131,9 @@ vendor/etc/anc_siq/superiq_model_s5khm6sx_17201842_back_g97
 vendor/etc/cam3atms_profiles.xml
 vendor/etc/trancam_filelock.json
 vendor/etc/tran_camprofiles.xml
+
+# Camera - Patched (RAW)
+vendor/lib64/mt6789/libmtkcam_metastore.so|8f652afbab4e2596be978038678616e66148ba24
 
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
