@@ -1449,6 +1449,24 @@ vendor/app/mcRegistry/ce4550edbcb1662566b006ebcb303050.tabin
 vendor/app/mcRegistry/df1edda8627911e980ae507b9d9a7e7d.tabin
 vendor/app/mcRegistry/e97c270ea5c44c58bcd3384a2fa2539e.tabin
 
+# NFC
+vendor/bin/hw/android.hardware.nfc@1.2-service
+vendor/etc/init/android.hardware.nfc@1.2-service.rc
+vendor/etc/init/init.nxp.nfc.rc
+vendor/lib/hw/android.hardware.nfc@1.0-impl.so
+vendor/lib/libnxp_extamp_intf.so
+vendor/lib64/hw/android.hardware.nfc@1.0-impl.so
+vendor/lib64/ese_client.so
+vendor/lib64/ese_spi_nxp.so
+vendor/lib64/hal_libnfc.so
+vendor/lib64/libnxp_extamp_intf.so
+vendor/lib64/libpn557_fw.so
+vendor/lib64/nfc_nci_nxp.so
+vendor/lib64/vendor.nxp.eventprocessor@1.0.so
+vendor/lib64/vendor.nxp.nxpese@1.0.so
+vendor/lib64/vendor.nxp.nxpnfc@2.0.so
+vendor/lib64/vendor.nxp.nxpnfclegacy@1.0.so
+
 # Radio | Configs
 vendor/etc/ecc_list.xml
 vendor/etc/ecc_list_OP01.xml
