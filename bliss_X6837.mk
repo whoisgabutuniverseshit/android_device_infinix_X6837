@@ -11,11 +11,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile.
 $(call inherit-product, device/infinix/X6837/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common BlissROMS stuff.
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_STOCK_GAPPS := true
 
 BOARD_VENDOR := Infinix
-PRODUCT_NAME := lineage_X6837
+PRODUCT_NAME := bliss_X6837
 PRODUCT_DEVICE := X6837
 PRODUCT_MANUFACTURER := INFINIX
 PRODUCT_BRAND := Infinix
@@ -28,15 +31,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=X6837-OP
 
 BUILD_FINGERPRINT := Infinix/X6837-OP/Infinix-X6837:13/TP1A.220624.014/240313V1154:user/release-keys
-
-# Device configs
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
-WITH_GMS := true
-
-# Matrixx
-MATRIXX_MAINTAINER := gabutuniverse!
-MATRIXX_CHIPSET := MT6789
-MATRIXX_BATTERY := 5000mAh
-MATRIXX_DISPLAY := 1080X2460
-TARGET_EXCLUDES_AUDIOFX := true

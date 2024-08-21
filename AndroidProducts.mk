@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_X6837.mk
+    $(LOCAL_DIR)/bliss_X6837.mk
