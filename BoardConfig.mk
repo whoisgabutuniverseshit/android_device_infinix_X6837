@@ -46,7 +46,6 @@ BOARD_VENDOR_KERNEL_MODULES := $(wildcard $(KERNEL_PATH)/vendor_dlkm/*.ko)
 TARGET_OTA_ASSERT_DEVICE := X6837,Infinix-X6837,x6837
 
 # Properties
-TARGET_PRODUCT_PROP += $(DEVICE_PATH)/configs/properties/product.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/properties/vendor.prop
 
 # Workaround to make lineage's soong generator work
